@@ -1,0 +1,12 @@
+
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/bootstrap.min.css"/>
+<link rel="stylesheet" href="assets/css/style.css"/>
+<style>
+    .bg-custom {
+        background-color: #152145 !important;
+    }
+    .text-custom {
+        color: #152145 !important;
+    }
+</style>

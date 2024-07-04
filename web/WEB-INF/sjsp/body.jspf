@@ -1,0 +1,60 @@
+<div class="sidebar position-fixed top-0 bottom-0 bg-white border-end bg-custom">
+    <div class="d-flex align-items-center p-3">
+        <a href="menu?opcion=4" class="sidebar-logo text-uppercase fw-bold text-decoration-none text-custom fs-4"><img style="height: 4rem" src="././assets/images/LOGO-LAMB-SVG.svg"/>PPP</a>
+        <i class="sidebar-toggle ri-arrow-left-circle-line ms-auto fs-5 d-none d-md-block" style="color: white;"></i>
+    </div>
+    <ul class="sidebar-menu p-3 m-0 mb-0">  
+        <li class="sidebar-menu-item has-dropdown bg-light rounded-2 text-custom">
+            <a href="#">
+                <i class="ri-pages-line sidebar-menu-item-icon text-custom"></i>
+                Mantenimiento
+                <i class="ri-arrow-down-s-line sidebar-menu-item-accordion ms-auto"></i>
+            </a>
+            <ul class="sidebar-dropdown-menu text-custom">
+                <li class="sidebar-dropdown-menu-item text-custom">
+                    <a href="menu?opcion=1">
+                        Mantener Rol
+                    </a>
+                    <a href="menu?opcion=2">
+                        Mantener Acceso
+                    </a>
+                    <a href="menu?opcion=3">
+                        Mantener Persona
+                    </a>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</div>
+<div class="sidebar-overlay"></div>
+<!-- end: Sidebar -->
+
+<!-- start: Main -->
+<div class="">
+    <!-- start: Navbar -->
+    <nav class="py-2 bg-custom rounded shadow-sm">
+        <i class="ri-menu-line sidebar-toggle me-3 d-block d-md-none"></i>
+        <h5 class="fw-bold mb-0 me-auto"></h5>
+        <div class="dropdown me-3 d-none d-sm-block">
+            <div class="cursor-pointer dropdown-toggle navbar-link" data-bs-toggle="dropdown"
+                 aria-expanded="false">
+                <div class="d-flex justify-content-center"> 
+                <img
+                    src="assets/images/login-icon.svg"
+                    alt="login-icon"
+                    style="height: 2rem;
+                    color: white;"/>
+            </div>
+            </div>
+            <div class="dropdown">
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <li><a class="dropdown-item fw-bold text-uppercase" href="#">${rol}</a></li>
+                    <li><a class="dropdown-item" href="logout">Cerrar Sesión</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </nav>
+    <!-- end: Navbar -->
+</div>
+<!-- end: Content -->
